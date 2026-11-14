@@ -1,0 +1,9 @@
+# Local editors, OS files, and environment secrets
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.env
+.env.*
+!.env.example
+node_modules/
