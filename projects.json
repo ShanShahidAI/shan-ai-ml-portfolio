@@ -1,0 +1,586 @@
+[
+  {
+    "id": "smartpark",
+    "title": "SmartPark TRACE",
+    "short": "An explainable multi-building parking platform with independent C++ and Flask/C++ implementations.",
+    "repository": "https://github.com/ShanShahidAI/smartpark-trace",
+    "category": "systems",
+    "status": "Academic build",
+    "features": [
+      "Multi-floor parking-slot allocation and vehicle compatibility rules",
+      "Road-graph routing with BFS, blocked-edge handling and fallback paths",
+      "BST / AVL indices, vehicle queues and linked structures",
+      "Administrative dashboards, parking billing and SQLite reporting",
+      "Emergency/VIP prioritization and complex computing extension"
+    ],
+    "stack": [
+      "C++17",
+      "Flask",
+      "Python",
+      "SQLite",
+      "BFS",
+      "AVL / BST",
+      "JavaScript"
+    ],
+    "role": "Group academic project with Muhammad Salman and Shaheryar Khan; repository documents the implementation and test scope.",
+    "media": [
+      {
+        "src": "https://raw.githubusercontent.com/ShanShahidAI/smartpark-trace/main/Previews/desktop_ccp.png",
+        "caption": "Actual SmartPark TRACE desktop CCP screenshot",
+        "kind": "Real project artifact"
+      },
+      {
+        "src": "https://raw.githubusercontent.com/ShanShahidAI/smartpark-trace/main/Previews/mobile_ccp.png",
+        "caption": "Actual SmartPark TRACE mobile CCP screenshot",
+        "kind": "Real project artifact"
+      }
+    ],
+    "metrics": [
+      {
+        "value": "18/18",
+        "label": "C++ CCP tests in supplied historical report"
+      },
+      {
+        "value": "2",
+        "label": "Independent application versions"
+      }
+    ],
+    "limitations": "Tests documented in repository are historical and have not been rerun for this portfolio update. Applications run locally; not a hosted parking service.",
+    "year": "2026",
+    "featured": true,
+    "run": "Standalone: run_cpp.bat with C++17 compiler. Web: setup_website.bat, then run_website.bat. See repository README."
+  },
+  {
+    "id": "dinesense",
+    "title": "DineSense AI",
+    "short": "A local restaurant-review analyzer that separates trained sentiment classification from transparent rule-based aspect tagging.",
+    "repository": "https://github.com/ShanShahidAI/dinesense-ai",
+    "category": "ai",
+    "status": "Academic build",
+    "features": [
+      "TF-IDF sentiment classification with Logistic Regression and Naive Bayes evaluation",
+      "Rule-based Food, Service, Price and Ambience matching",
+      "Review analytics and suggestions in a Flask interface",
+      "Saved educational model, demo reviews, project report and presentation"
+    ],
+    "stack": [
+      "Python",
+      "Flask",
+      "scikit-learn",
+      "TF-IDF",
+      "NLP",
+      "JavaScript"
+    ],
+    "role": "AI semester project, group work with Muhammad Salman and Shaheryar Khan.",
+    "media": [
+      {
+        "src": "assets/preview-dinesense.webp",
+        "caption": "Source-based project preview — not a screenshot of a running app",
+        "kind": "Source-based illustration"
+      }
+    ],
+    "metrics": [
+      {
+        "value": "120",
+        "label": "Hand-written educational review samples"
+      },
+      {
+        "value": "46.7%",
+        "label": "Held-out accuracy on demo data"
+      }
+    ],
+    "limitations": "The sample reviews are hand-written. Accuracy is not a real-world validation. Aspect tagging and suggestions are rules, not trained aspect-specific ML.",
+    "year": "2026",
+    "featured": true,
+    "run": "Create a Python environment, pip install -r requirements.txt, python -m src.train, python app.py; open localhost:5000."
+  },
+  {
+    "id": "acadinsight",
+    "title": "AcadInsight",
+    "short": "A student-performance analyzer with academic records, weighted assessments, attendance, GPA/CGPA calculations and charts.",
+    "repository": "https://github.com/ShanShahidAI/acadinsight-pfai",
+    "category": "ai",
+    "status": "Academic build",
+    "features": [
+      "Manage example student records, subjects and assessment entries",
+      "Calculate weighted grades, attendance and estimated GPA/CGPA",
+      "Generate Pandas / Matplotlib reports and export CSV",
+      "Transparent rule-based student improvement advice",
+      "Editable demo grading bands and local data storage"
+    ],
+    "stack": [
+      "Python",
+      "NumPy",
+      "pandas",
+      "Matplotlib",
+      "HTML",
+      "JavaScript"
+    ],
+    "role": "Programming for AI group project; proposal assigns Shan the NumPy, Pandas, statistics and reporting work.",
+    "media": [
+      {
+        "src": "assets/preview-acadinsight.webp",
+        "caption": "Source-based code preview — not a screenshot of the deployed dashboard",
+        "kind": "Source-based illustration"
+      }
+    ],
+    "metrics": [
+      {
+        "value": "9/9",
+        "label": "Tests passed in supplied historical report"
+      },
+      {
+        "value": "7",
+        "label": "Documented interactive app sections"
+      }
+    ],
+    "limitations": "No predictive ML model; GPA policies and sample students are illustrative. Test results come from project documents.",
+    "year": "2026",
+    "featured": true,
+    "run": "From Code/: pip install -r requirements.txt, python app.py; open localhost:8765."
+  },
+  {
+    "id": "signal-city",
+    "title": "Signal City V5",
+    "short": "8086 assembly traffic-light controller with a separate visual browser simulator and emergency-priority modes.",
+    "repository": "https://github.com/ShanShahidAI/traffic-signal-controller",
+    "category": "systems",
+    "status": "Academic build",
+    "features": [
+      "emu8086 traffic-light output for normal sequences",
+      "VIP and ambulance priority branches",
+      "All-red safeguard logic in the educational sequence",
+      "Separate interactive HTML register/step visualizer"
+    ],
+    "stack": [
+      "8086 Assembly",
+      "emu8086",
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "role": "COAL semester group project with Muhammad Salman and Shaheryar Khan.",
+    "media": [
+      {
+        "src": "assets/preview-signal.webp",
+        "caption": "Source-based 8086 assembly preview — not an emulator screenshot",
+        "kind": "Source-based illustration"
+      }
+    ],
+    "metrics": [
+      {
+        "value": "2",
+        "label": "Demonstration modes: assembly and browser"
+      }
+    ],
+    "limitations": "The HTML simulator is not connected live to the emu8086 process and is not a safety-certified controller.",
+    "year": "2026",
+    "featured": true,
+    "run": "Open assembly/traffic-signal-controller.asm in emu8086 and demo/signal-city-v5.html separately in a browser."
+  },
+  {
+    "id": "library",
+    "title": "Library Management System",
+    "short": "A menu-driven C++ DSA mini project using singly linked lists, linear search and bubble sorting.",
+    "repository": "https://github.com/ShanShahidAI/Library_Management_System_Mini_Project-DSA",
+    "category": "software",
+    "status": "Completed source",
+    "features": [
+      "Add and list book records by unique ID",
+      "Search by book ID with linear traversal",
+      "Bubble-sort book records",
+      "Delete book nodes without breaking list connections"
+    ],
+    "stack": [
+      "C++",
+      "Singly Linked Lists",
+      "Pointers",
+      "Linear Search",
+      "Bubble Sort"
+    ],
+    "role": "DSA mini-project with Absar Ahmed.",
+    "media": [
+      {
+        "src": "assets/preview-library.webp",
+        "caption": "Source-based preview of the original C++ linked-list implementation",
+        "kind": "Source-based illustration"
+      }
+    ],
+    "metrics": [],
+    "limitations": "In-memory data only; no persistent database.",
+    "year": "2026",
+    "featured": false,
+    "run": "Compile with g++ -std=c++11 main.cpp -o library && ./library."
+  },
+  {
+    "id": "house",
+    "title": "House Rental System",
+    "short": "C++ console project covering rental listings, simulated bookings, administration and rental calculations.",
+    "repository": "https://github.com/ShanShahidAI/house-rental-system",
+    "category": "software",
+    "status": "Completed source",
+    "features": [
+      "Search properties by city and price range",
+      "User/admin console navigation",
+      "Sample rent, deposit and tax calculations",
+      "In-memory booking and history flows"
+    ],
+    "stack": [
+      "C++",
+      "Arrays",
+      "Functions",
+      "Structs",
+      "Console UI"
+    ],
+    "role": "Programming Fundamentals final academic project.",
+    "media": [
+      {
+        "src": "assets/preview-house.webp",
+        "caption": "Source-based preview of original C++ property structure and menus",
+        "kind": "Source-based illustration"
+      }
+    ],
+    "metrics": [],
+    "limitations": "Educational prototype only; no real contracts, financial transactions or secure authentication.",
+    "year": "2025",
+    "featured": false,
+    "run": "Compile src/main.cpp using a compatible C++11 compiler."
+  },
+  {
+    "id": "spam",
+    "title": "Spam Email Classification",
+    "short": "Five-model classification comparison on the UCI Spambase dataset with cross-validation and test evaluation.",
+    "repository": "https://github.com/ShanShahidAI/Shan-72387-Programing-for-AI",
+    "category": "ai",
+    "status": "Completed lab",
+    "features": [
+      "Compare Logistic Regression, Decision Tree, k-NN and Gaussian NB with a majority baseline",
+      "Cross-validation, held-out evaluation and confusion-matrix interpretation",
+      "Model-comparison plots, reports and saved artifacts"
+    ],
+    "stack": [
+      "Python",
+      "scikit-learn",
+      "NumPy",
+      "pandas",
+      "Matplotlib"
+    ],
+    "role": "Programming for AI coursework (Week 10).",
+    "media": [
+      {
+        "src": "https://raw.githubusercontent.com/ShanShahidAI/Shan-72387-Programing-for-AI/main/week10/figures/model_comparison.png",
+        "caption": "Actual course-generated classification model comparison chart",
+        "kind": "Real project artifact"
+      }
+    ],
+    "metrics": [
+      {
+        "value": "92.3%",
+        "label": "Mean Logistic Regression CV accuracy"
+      }
+    ],
+    "limitations": "Coursework result, not a production spam-detection claim.",
+    "year": "2026",
+    "featured": false,
+    "run": "See week10/compare_classifiers.py and reports/model_comparison.csv."
+  },
+  {
+    "id": "concrete",
+    "title": "Concrete Strength Regression",
+    "short": "Regression analysis comparing mean baseline, cement-only regression and multivariable linear models.",
+    "repository": "https://github.com/ShanShahidAI/Shan-72387-Programing-for-AI",
+    "category": "ai",
+    "status": "Completed lab",
+    "features": [
+      "Train/test split with a mean baseline, simple and multiple regression",
+      "Compare MAE, RMSE and R²",
+      "Save diagnostics plots and prediction reports"
+    ],
+    "stack": [
+      "Python",
+      "pandas",
+      "scikit-learn",
+      "Regression",
+      "Matplotlib"
+    ],
+    "role": "Programming for AI coursework (Week 11).",
+    "media": [
+      {
+        "src": "https://raw.githubusercontent.com/ShanShahidAI/Shan-72387-Programing-for-AI/main/week11/figures/regression_diagnostics.png",
+        "caption": "Actual coursework regression-diagnostics figure",
+        "kind": "Real project artifact"
+      }
+    ],
+    "metrics": [
+      {
+        "value": "0.628",
+        "label": "Multiple-regression held-out R²"
+      },
+      {
+        "value": "7.746",
+        "label": "Multiple-regression test MAE"
+      }
+    ],
+    "limitations": "Metrics are specific to the test split and educational dataset; not a deployed predictive service.",
+    "year": "2026",
+    "featured": false,
+    "run": "Review week11 notebooks, reports and regression diagnostics."
+  },
+  {
+    "id": "decision-tree",
+    "title": "Diabetes Dataset — Decision Tree Lab",
+    "short": "A supervised decision-tree classification exercise using entropy, evaluation graphics and saved model artifacts.",
+    "repository": "https://github.com/ShanShahidAI/Shan_72387_Artificial-Intelligence",
+    "category": "ai",
+    "status": "Completed lab",
+    "features": [
+      "Explore class balance and information gain",
+      "Train an entropy-based DecisionTreeClassifier",
+      "Evaluate confusion matrix, feature importance, rules and sample predictions",
+      "Save generated model and metrics"
+    ],
+    "stack": [
+      "Python",
+      "scikit-learn",
+      "Entropy",
+      "Decision Trees",
+      "Matplotlib"
+    ],
+    "role": "AI / Programming for AI lab exercise stored under the AI labs repository.",
+    "media": [
+      {
+        "src": "https://raw.githubusercontent.com/ShanShahidAI/Shan_72387_Artificial-Intelligence/main/lab-12/outputs/04_decision_tree.png",
+        "caption": "Actual decision-tree visualization from coursework",
+        "kind": "Real project artifact"
+      },
+      {
+        "src": "https://raw.githubusercontent.com/ShanShahidAI/Shan_72387_Artificial-Intelligence/main/lab-12/outputs/04_confusion_matrix.png",
+        "caption": "Actual held-out confusion matrix from coursework",
+        "kind": "Real project artifact"
+      },
+      {
+        "src": "https://raw.githubusercontent.com/ShanShahidAI/Shan_72387_Artificial-Intelligence/main/lab-12/outputs/04_feature_importance.png",
+        "caption": "Actual feature-importance graphic",
+        "kind": "Real project artifact"
+      }
+    ],
+    "metrics": [
+      {
+        "value": "80.5%",
+        "label": "Recorded hold-out test accuracy"
+      }
+    ],
+    "limitations": "Educational data exercise only. Not for medical diagnosis or clinical use.",
+    "year": "2026",
+    "featured": false,
+    "run": "From lab-12/: pip install -r requirements.txt; python run_all.py."
+  },
+  {
+    "id": "dsa",
+    "title": "Data Structures & Algorithms Labs",
+    "short": "A carefully organized archive of C++ implementations, lab tasks, assignments and an array-insertion visualizer.",
+    "repository": "https://github.com/ShanShahidAI/Shan_72387_Data-Structures",
+    "category": "coursework",
+    "status": "Source collection",
+    "features": [
+      "Linked lists, stacks, queues and AVL/BST practice",
+      "Bubble sort, selection sort, binary search and pointer exercises",
+      "Interactive HTML array-insertion practice tool",
+      "Original reports, lab submissions and source map"
+    ],
+    "stack": [
+      "C++",
+      "DSA",
+      "Pointers",
+      "Sorting",
+      "Search"
+    ],
+    "role": "Individual academic coursework across multiple DSA lab weeks.",
+    "media": [
+      {
+        "src": "assets/preview-dsa.webp",
+        "caption": "Source-based view of the array-insertion HTML visualizer",
+        "kind": "Source-based illustration"
+      }
+    ],
+    "metrics": [
+      {
+        "value": "44",
+        "label": "Original C++ files indexed in repository README"
+      }
+    ],
+    "limitations": "Not a single deployed application; source tests were not rerun during repository reorganization.",
+    "year": "2026",
+    "featured": false,
+    "run": "Compile individual .cpp lab files or open lab-01/visualizer/array-insertion.html."
+  },
+  {
+    "id": "pfai-labs",
+    "title": "Programming for AI Labs",
+    "short": "Python learning portfolio including numerical computing, pandas, plots, classification and regression notebooks.",
+    "repository": "https://github.com/ShanShahidAI/Shan-72387-Programing-for-AI",
+    "category": "coursework",
+    "status": "Source collection",
+    "features": [
+      "Python basics, functions and OOP practice",
+      "NumPy/pandas data-cleaning and visualization labs",
+      "Classification model comparison and regression diagnostics",
+      "Two assignment implementations with tests"
+    ],
+    "stack": [
+      "Python",
+      "NumPy",
+      "pandas",
+      "Jupyter",
+      "scikit-learn"
+    ],
+    "role": "Individual programming coursework organized by weeks and assignments.",
+    "media": [
+      {
+        "src": "https://raw.githubusercontent.com/ShanShahidAI/Shan-72387-Programing-for-AI/main/week07/figures/student_dashboard.png",
+        "caption": "Actual student dashboard figure generated during Week 7 lab",
+        "kind": "Real project artifact"
+      },
+      {
+        "src": "https://raw.githubusercontent.com/ShanShahidAI/Shan-72387-Programing-for-AI/main/week07/figures/b1_weekly_attendance_trend.png",
+        "caption": "Actual lab attendance-trend figure",
+        "kind": "Real project artifact"
+      }
+    ],
+    "metrics": [],
+    "limitations": "Learning collection; not all tasks have hosted demos.",
+    "year": "2026",
+    "featured": false,
+    "run": "Follow README; use Python/Jupyter and exercise-specific working directories."
+  },
+  {
+    "id": "ai-labs",
+    "title": "Artificial Intelligence Labs",
+    "short": "Python exercises in search and inference, notebooks and a fully documented decision-tree practice pipeline.",
+    "repository": "https://github.com/ShanShahidAI/Shan_72387_Artificial-Intelligence",
+    "category": "coursework",
+    "status": "Source collection",
+    "features": [
+      "AI agents, graphs and search exercises",
+      "BFS practice and lab submissions",
+      "Decision tree on diabetes dataset with artifacts",
+      "Original notebooks and reports"
+    ],
+    "stack": [
+      "Python",
+      "AI",
+      "Graphs",
+      "BFS",
+      "Jupyter"
+    ],
+    "role": "Artificial Intelligence course laboratory work.",
+    "media": [
+      {
+        "src": "https://raw.githubusercontent.com/ShanShahidAI/Shan_72387_Artificial-Intelligence/main/lab-12/outputs/01_class_distribution.png",
+        "caption": "Actual class-distribution plot from AI lab",
+        "kind": "Real project artifact"
+      }
+    ],
+    "metrics": [],
+    "limitations": "Lab 12 stored here originated from a Programming for AI / ML exercise, as recorded by the repository README.",
+    "year": "2026",
+    "featured": false,
+    "run": "Open relevant lab folder and run its Python script or notebook."
+  },
+  {
+    "id": "coal-labs",
+    "title": "8086 Assembly Labs",
+    "short": "A categorized collection of emu8086 exercises, functions, DOS interrupts, arrays, arithmetic and control flow.",
+    "repository": "https://github.com/ShanShahidAI/Shan_72387_Coal-Assembly",
+    "category": "coursework",
+    "status": "Source collection",
+    "features": [
+      "8086 control flow and DOS output",
+      "Array arithmetic, looping and conditional branching",
+      "Arithmetic utilities and function practice",
+      "Original assembly assignments and explanations"
+    ],
+    "stack": [
+      "8086 Assembly",
+      "emu8086",
+      "x86",
+      "Hardware Fundamentals"
+    ],
+    "role": "Computer Organization and Assembly Language coursework.",
+    "media": [
+      {
+        "src": "assets/preview-signal.webp",
+        "caption": "Source-based assembly-language preview",
+        "kind": "Source-based illustration"
+      }
+    ],
+    "metrics": [],
+    "limitations": "Most routines are intended for emu8086, not direct execution in a modern terminal.",
+    "year": "2026",
+    "featured": false,
+    "run": "Open selected .asm source in emu8086 and emulate."
+  },
+  {
+    "id": "oop-labs",
+    "title": "Object-Oriented Programming Labs",
+    "short": "Archived OOP coursework and submitted exercises, preserved as Word and PDF documents.",
+    "repository": "https://github.com/ShanShahidAI/Shan-72387-OOP-LAB-BSAI",
+    "category": "coursework",
+    "status": "Documented coursework",
+    "features": [
+      "Lab documents for object-oriented programming",
+      "Course-submission PDFs and a compiled Word document",
+      "Reference material for classes, objects and OOP problem-solving"
+    ],
+    "stack": [
+      "OOP",
+      "Programming",
+      "Academic Documentation"
+    ],
+    "role": "Personal coursework; separate Student Management project source has not been verified in this repository.",
+    "media": [
+      {
+        "src": "assets/preview-house.webp",
+        "caption": "Representative programming source preview; not an OOP project screenshot",
+        "kind": "Illustrative code image"
+      }
+    ],
+    "metrics": [],
+    "limitations": "This repository contains submissions rather than a verified standalone OOP application source.",
+    "year": "2026",
+    "featured": false,
+    "run": "Open the lab PDF and DOCX files in the repository."
+  },
+  {
+    "id": "array-visualizer",
+    "title": "Array Insertion Visualizer",
+    "short": "A browser-based exercise demonstrating how values shift when inserting items into an array.",
+    "repository": "https://github.com/ShanShahidAI/Shan_72387_Data-Structures",
+    "category": "software",
+    "status": "Learning tool",
+    "features": [
+      "Visual presentation of positions and shifts",
+      "Interactive browser exercise",
+      "Accompanies C++ DSA lab 1 practice"
+    ],
+    "stack": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Arrays"
+    ],
+    "role": "DSA Lab 1 visualizer; source available in the lab folder.",
+    "media": [
+      {
+        "src": "assets/preview-dsa.webp",
+        "caption": "Source-based preview of the original visualizer HTML",
+        "kind": "Source-based illustration"
+      }
+    ],
+    "metrics": [],
+    "limitations": "Educational browser visualization, not an enterprise application.",
+    "year": "2026",
+    "featured": false,
+    "run": "Open lab-01/visualizer/array-insertion.html in the browser."
+  }
+]

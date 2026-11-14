@@ -1,157 +1,102 @@
-<!DOCTYPE html>
-<html lang="en" data-theme="dark">
+<!doctype html>
+<html lang="en" data-theme="light">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-  <meta name="theme-color" content="#080d16" />
-  <meta name="description" content="Shan — BS Artificial Intelligence student at Riphah International University. Explore AI/ML coursework, original C++ projects, Python labs, and Arduino engineering. Contact Shan via email or WhatsApp." />
-  <meta property="og:type" content="website" />
-  <meta property="og:title" content="Shan — AI / ML Portfolio" />
-  <meta property="og:description" content="Learning the science of intelligence. Building software that makes it useful." />
-  <meta property="og:image" content="assets/shan-portrait.webp" />
-  <meta name="twitter:card" content="summary_large_image" />
-  <title>Shan — AI/ML Student & Developer</title>
-  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="styles.css" />
-  <script src="script.js" defer></script>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#f3f4ef">
+  <meta name="description" content="Shan is a BS Artificial Intelligence student and aspiring AI/ML engineer based in Islamabad. Explore verified C++, Python, AI/ML and engineering projects, case studies, code, and certificates.">
+  <meta property="og:title" content="Shan — AI / ML & Software Portfolio">
+  <meta property="og:description" content="Building thoughtful software through algorithms, data and applied intelligence. Real work, real source code, measurable learning.">
+  <meta property="og:image" content="https://shan-ai-ml-portfolio.vercel.app/assets/shan-portrait.webp">
+  <meta property="og:type" content="website"><meta name="twitter:card" content="summary_large_image">
+  <title>Shan — AI / ML & Software Portfolio</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css"><script src="script.js" defer></script>
 </head>
 <body>
-  <a class="skip-link" href="#main">Skip to content</a>
-  <div class="scroll-indicator" aria-hidden="true"><span id="scrollProgress"></span></div>
+  <a class="skip" href="#main">Skip to main content</a>
+  <div class="scrollline" id="progress"></div>
   <header class="site-header" id="top">
-    <div class="container header-inner">
-      <a class="brand" href="#top" aria-label="Shan portfolio, back to top"><span class="brand-symbol" aria-hidden="true">s<span class="glyph-dot">.</span></span><span class="brand-text">SHAN<span class="brand-accent">/AI</span></span></a>
-      <nav class="desktop-nav" aria-label="Main navigation">
-        <a href="#work" data-nav="work">Work</a>
-        <a href="#about" data-nav="about">About</a>
-        <a href="#skills" data-nav="skills">Expertise</a>
-        <a href="#credentials" data-nav="credentials">Credentials</a>
-      </nav>
-      <div class="header-actions">
-        <button class="icon-button theme-switch" id="themeToggle" type="button" aria-label="Switch to light theme" title="Toggle theme">
-          <svg class="moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M20.5 15.2A9 9 0 018.8 3.5 9 9 0 1020.5 15.2z"/></svg>
-          <svg class="sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3l1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"/></svg>
-        </button>
-        <a class="header-contact" href="#contact">Let's connect <span aria-hidden="true">↗</span></a>
-        <button class="icon-button menu-toggle" id="menuToggle" type="button" aria-expanded="false" aria-controls="mobileNav" aria-label="Open navigation"><span></span><span></span></button>
-      </div>
-    </div>
-    <nav class="mobile-nav" id="mobileNav" aria-label="Mobile navigation" hidden>
-      <a href="#work">01 <span>Selected work</span></a>
-      <a href="#about">02 <span>About me</span></a>
-      <a href="#skills">03 <span>Skills & tools</span></a>
-      <a href="#credentials">04 <span>Credentials</span></a>
-      <a href="#contact">05 <span>Contact</span></a>
-    </nav>
+   <div class="shell head-inner">
+    <a class="logo" href="#top" aria-label="Shan, return home"><span class="logo-mark">s<span>.</span></span><span>SHAN<span class="logo-suffix">/AI</span></span></a>
+    <nav class="desktop-nav" aria-label="Primary navigation"><a href="#projects">Projects</a><a href="#method">Approach</a><a href="#about">About</a><a href="#credentials">Credentials</a><a href="#contact">Contact</a></nav>
+    <div class="head-actions"><button class="theme-toggle icon-btn" id="themeToggle" aria-label="Switch theme" title="Switch between light and dark">◑</button><a class="top-connect" href="mailto:shanstudent72387@gmail.com">Let's talk <span>↗</span></a><button class="menu-toggle icon-btn" id="menuToggle" aria-expanded="false" aria-label="Open menu" aria-controls="mobileMenu"><span class="hamburger"></span></button></div>
+   </div>
+   <nav class="mobile-menu" id="mobileMenu" aria-label="Mobile menu" hidden><a href="#projects">Selected work</a><a href="#method">Approach & proof</a><a href="#about">About</a><a href="#credentials">Certificates</a><a href="#contact">Contact</a></nav>
   </header>
-
   <main id="main">
-    <section class="hero" aria-labelledby="hero-title">
-      <div class="hero-glow" aria-hidden="true"></div>
-      <canvas id="neuralCanvas" aria-hidden="true"></canvas>
-      <div class="container hero-grid">
-        <div class="hero-copy">
-          <div class="eyebrow reveal"><span class="signal-mark"></span> BS ARTIFICIAL INTELLIGENCE <span class="eyebrow-slash">/</span> ISLAMABAD</div>
-          <div class="hero-preheading reveal">Hi, I'm Shan <span class="wave" aria-hidden="true">✳</span></div>
-          <h1 class="hero-title reveal" id="hero-title">Curiosity<br/>meets <em>code.</em><br/><span class="stroke-type">Intelligence</span><br/>takes shape<span class="terminal-dot">.</span></h1>
-          <p class="hero-description reveal">An aspiring <strong>AI / Machine Learning Engineer</strong> building strong foundations in Python, C++, algorithms, and applied machine learning — one meaningful project at a time.</p>
-          <div class="hero-ctas reveal">
-            <a class="button button-primary" href="#work">Explore my work <span class="button-arrow" aria-hidden="true">↗</span></a>
-            <a class="button button-outline" href="assets/Shan_CV.pdf" download="Shan_AI_ML_Resume.pdf" aria-label="Download Shan resume as PDF">Download CV <span aria-hidden="true">↓</span></a>
-            <a class="button button-text" href="https://github.com/ShanShahidAI" target="_blank" rel="noopener noreferrer">View GitHub <span aria-hidden="true">↗</span></a>
-          </div>
-          <div class="hero-meta reveal"><span class="availability"><i></i> Open to AI/ML internships</span><span class="meta-sep"></span><span>Riphah International University</span></div>
-        </div>
-        <div class="hero-visual reveal" aria-label="Professional portrait of Shan">
-          <div class="visual-orbit orbit-one"></div><div class="visual-orbit orbit-two"></div>
-          <div class="portrait-frame">
-            <div class="portrait-number">/ 001 — EXPLORER</div>
-            <img src="assets/shan-portrait.webp" width="1100" height="1100" alt="Shan, BS Artificial Intelligence student" fetchpriority="high" />
-            <div class="portrait-shade" aria-hidden="true"></div>
-            <div class="portrait-bottom"><span>SHAN</span><span class="mono">AI / ML • STUDENT</span></div>
-          </div>
-          <div class="float-note note-top"><span class="note-led"></span><span>Currently learning<br/><strong>Machine Learning</strong></span></div>
-          <div class="float-note note-bottom"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="m8 9-4 3 4 3m8-6 4 3-4 3m-3-9-2 18"/></svg><span>Think. Build.<br/><strong>Keep improving.</strong></span></div>
-        </div>
+    <section class="hero shell" aria-labelledby="hero-title">
+      <div class="hero-left">
+       <div class="hero-kicker reveal"><span class="live-dot"></span> OPEN TO AI / ML INTERNSHIPS <span class="slash">/</span> ISLAMABAD, PK</div>
+       <p class="hero-intro reveal">Hello, I'm Shan <span class="hello-hand">✳</span></p>
+       <h1 id="hero-title" class="reveal">Engineering<br><em>curiosity</em><span class="hero-period">.</span></h1>
+       <p class="hero-copy reveal">I'm a <strong>BS Artificial Intelligence student</strong> at Riphah International University. I translate classroom theory into working software — from ML experiments to C++ systems and explainable dashboards.</p>
+       <div class="hero-buttons reveal"><a class="btn primary" href="#projects">Explore real projects <span>↗</span></a><a class="btn bordered" href="assets/Shan_CV.pdf" download="Shan_AI_ML_CV.pdf">Download CV <span>↓</span></a></div>
+       <div class="hero-social reveal"><a href="https://github.com/ShanShahidAI" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="https://www.linkedin.com/in/shan-shahid-ai" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a><a href="https://wa.me/923003361048" target="_blank" rel="noopener noreferrer">WhatsApp ↗</a></div>
+       <div class="hero-index reveal"><span>PORTFOLIO / 2026</span><span>SCROLL TO DISCOVER ↓</span></div>
       </div>
-      <div class="container hero-bottom"><a href="#work" class="scroll-cue">SCROLL TO EXPLORE <span class="scroll-line" aria-hidden="true"></span> ↓</a><span class="hero-index">PORTFOLIO / 2026 — <span id="heroClock">00:00</span> PKT</span></div>
-    </section>
-
-    <div class="marquee" aria-hidden="true"><div class="marquee-track"><span>PYTHON</span><i>✳</i><span>MACHINE LEARNING</span><i>✳</i><span>CREATIVE PROBLEM SOLVING</span><i>✳</i><span>C++</span><i>✳</i><span>DATA STRUCTURES</span><i>✳</i><span>APPLIED AI</span><i>✳</i><span>PYTHON</span><i>✳</i><span>MACHINE LEARNING</span><i>✳</i><span>CREATIVE PROBLEM SOLVING</span><i>✳</i><span>C++</span><i>✳</i><span>DATA STRUCTURES</span><i>✳</i><span>APPLIED AI</span><i>✳</i></div></div>
-
-    <section class="section work-section" id="work" aria-labelledby="work-title">
-      <div class="container">
-        <div class="section-heading reveal"><div><div class="kicker"><span class="kicker-number">01</span> / WHAT I'M BUILDING</div><h2 id="work-title">Work in <span class="serif-italic">progress</span><span class="dot">.</span></h2></div><p>From classroom concepts to real-world thinking. Every project is an opportunity to learn by doing.</p></div>
-        <div class="project-controls reveal" role="group" aria-label="Filter projects"><button class="filter active" type="button" data-filter="all" aria-pressed="true">All work <span id="allCount">09</span></button><button class="filter" type="button" data-filter="ai" aria-pressed="false">AI / ML</button><button class="filter" type="button" data-filter="software" aria-pressed="false">Software</button><button class="filter" type="button" data-filter="hardware" aria-pressed="false">Hardware</button></div>
-        <div class="projects-grid" id="projectsGrid" aria-live="polite"></div>
-        <div class="project-footer reveal"><span>More experiments and coursework are in progress.</span><a href="https://github.com/ShanShahidAI?tab=repositories" target="_blank" rel="noopener noreferrer">Explore GitHub repositories <span aria-hidden="true">↗</span></a></div>
+      <div class="hero-right reveal">
+       <div class="photo-background" aria-hidden="true"><div class="shape-ring ring-one"></div><div class="shape-ring ring-two"></div><span class="img-code">ML<span> / </span>C++</span></div>
+       <img src="assets/shan-portrait.webp" class="hero-photo" width="1100" height="1100" fetchpriority="high" alt="Portrait of Shan, artificial intelligence student, in formal shirt and tie">
+       <div class="portrait-card"><span class="portrait-label">STUDENT / DEVELOPER</span><span class="portrait-name">SHAN<span>✳</span></span></div>
+       <div class="photo-corner top-right">01 / 04</div><div class="photo-corner bottom-left">LEARNING THROUGH BUILDING</div>
       </div>
     </section>
-
-    <section class="section about-section" id="about" aria-labelledby="about-title">
-      <div class="container about-grid">
-        <div class="about-image-side reveal">
-          <div class="about-photo-wrap"><img src="assets/shan-editorial.webp" alt="Portrait of Shan in traditional formal attire" loading="lazy" width="760" height="880"/><div class="about-photo-label">BEHIND THE CODE <span>↗</span></div></div>
-          <span class="about-side-caption">ALWAYS A STUDENT. ALWAYS A BUILDER.</span>
-        </div>
-        <div class="about-copy reveal"><div class="kicker"><span class="kicker-number">02</span> / ABOUT ME</div><h2 id="about-title">More than<br/><span class="serif-italic">a line of code.</span></h2><p class="about-lead">I’m Shan, a BS Artificial Intelligence student at Riphah International University, Islamabad.</p><p>My curiosity lives where <strong>logic, learning, and real problems</strong> meet. I work with Python, C++ and data structures, while exploring how machine learning can make everyday systems a little smarter.</p><p>From an Arduino prototype and object-oriented systems to ML experiments and a more ambitious parking intelligence concept, I enjoy understanding how things work — and then finding ways to make them work better.</p><div class="about-signature"><span class="signature-name">Shan<span>.</span></span><span class="signature-line"></span><span>Learning by building</span></div>
-          <div class="about-facts"><div><span>EDUCATION</span><strong>BS Artificial Intelligence</strong></div><div><span>UNIVERSITY</span><strong>Riphah International University</strong></div><div><span>LOCATION</span><strong>Islamabad, Pakistan</strong></div><div><span>FOCUS</span><strong>AI / Machine Learning Engineering</strong></div></div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section stack-section" id="skills" aria-labelledby="skills-title"><div class="container">
-      <div class="section-heading reveal"><div><div class="kicker"><span class="kicker-number">03</span> / MY TOOLKIT</div><h2 id="skills-title">The way I <span class="serif-italic">build</span><span class="dot">.</span></h2></div><p>Foundations I use today, and technologies I am actively learning through practical coursework.</p></div>
-      <div class="stack-grid">
-        <article class="stack-panel reveal"><div class="stack-top"><div class="stack-symbol">{ }</div><span>01 / CORE LANGUAGES</span></div><h3>Write the logic.</h3><p>Programming fundamentals and clear problem-solving.</p><div class="chip-cloud"><span>Python</span><span>C++</span><span>Object-Oriented Programming</span><span>Git & GitHub</span></div></article>
-        <article class="stack-panel reveal"><div class="stack-top"><div class="stack-symbol">◈</div><span>02 / INTELLIGENCE</span></div><h3>Make sense of data.</h3><p>Hands-on learning in modeling, analysis, and evaluation.</p><div class="chip-cloud"><span>Machine Learning</span><span>pandas</span><span>NumPy</span><span>scikit-learn</span><span>Matplotlib</span><span>Jupyter</span></div></article>
-        <article class="stack-panel reveal"><div class="stack-top"><div class="stack-symbol">⌘</div><span>03 / THINKING TOOLS</span></div><h3>Design the solution.</h3><p>The structures and approaches behind dependable systems.</p><div class="chip-cloud"><span>Data Structures</span><span>Algorithms</span><span>Linked Lists</span><span>Searching & Sorting</span><span>Graph Traversals</span><span>Digital Logic</span></div></article>
-      </div>
-      <div class="learning-banner reveal"><span class="learning-symbol">✳</span><div><span class="mono micro-label">CURRENTLY EXPLORING</span><p>Natural Language Processing · Explainable AI · Model Evaluation · Practical AI Applications</p></div><span class="learning-arrow" aria-hidden="true">↗</span></div>
+    <section class="proof-bar" aria-label="At a glance"><div class="shell proof-grid">
+      <div><strong id="projectCount">15</strong><span>Evidence-backed projects<br>& coursework collections</span></div>
+      <div><strong>03</strong><span>Cisco course completions<br>shown in earlier certificates</span></div>
+      <div><strong>2025–29</strong><span>BS Artificial Intelligence<br>Riphah International University</span></div>
+      <div class="proof-note"><span class="proof-marker">✳</span><span>No invented internships.<br>No fake client reviews.<br>Every claim has context.</span></div>
     </div></section>
-
-    <section class="section credentials-section" id="credentials" aria-labelledby="credentials-title"><div class="container">
-      <div class="section-heading reveal"><div><div class="kicker"><span class="kicker-number">04</span> / CONTINUOUS LEARNING</div><h2 id="credentials-title">Proof of <span class="serif-italic">progress</span><span class="dot">.</span></h2></div><p>Courses completed through Cisco Networking Academy, alongside my university studies.</p></div>
-      <div class="credentials-list">
-        <article class="credential reveal"><span class="credential-index">01</span><div class="credential-main"><h3>Prompt Like an Engineer</h3><span>Cisco Networking Academy</span></div><span class="credential-date">NOV 2026</span><span class="credential-verified">COMPLETED <span aria-hidden="true">↗</span></span></article>
-        <article class="credential reveal"><span class="credential-index">02</span><div class="credential-main"><h3>Computer Hardware Basics</h3><span>Cisco Networking Academy</span></div><span class="credential-date">OCT 2026</span><span class="credential-verified">COMPLETED <span aria-hidden="true">↗</span></span></article>
-        <article class="credential reveal"><span class="credential-index">03</span><div class="credential-main"><h3>C++ Essentials 1</h3><span>Cisco Networking Academy / C++ Institute</span></div><span class="credential-date">DEC 2025</span><a class="credential-link" href="https://github.com/ShanShahidAI/C-Certificates" target="_blank" rel="noopener noreferrer">VIEW EVIDENCE ↗</a></article>
-      </div>
-      <div class="education-timeline reveal"><div class="timeline-icon">✳</div><div><span class="mono micro-label">CURRENT EDUCATION</span><h3>Bachelor of Science in Artificial Intelligence</h3><p>Riphah International University · 2025 – 2029 (expected)</p></div><span class="timeline-status">IN PROGRESS</span></div>
-    </div></section>
-
-    <section class="contact-section" id="contact" aria-labelledby="contact-title">
-      <div class="container contact-inner">
-        <div class="contact-glow" aria-hidden="true"></div>
-        <div class="kicker kicker-light reveal"><span class="kicker-number">05</span> / LET'S CONNECT</div>
-        <div class="contact-head reveal"><h2 id="contact-title">Have an idea?<br/><span class="serif-italic">Let's explore it.</span></h2><span class="contact-asterisk" aria-hidden="true">✳</span></div>
-        <p class="contact-description reveal">Open to meaningful conversations, AI/ML internship opportunities, project collaborations, and learning from people who love building things.</p>
-                <div class="contact-panels reveal">
-          <div class="contact-reach">
-            <span class="mono micro-label contact-small-heading">DIRECT CONTACT</span>
-            <a class="reach-link" href="mailto:shanstudent72387@gmail.com" aria-label="Send email to Shan"><span class="reach-icon">✉</span><span><small>EMAIL</small><strong>shanstudent72387@gmail.com</strong></span><span>↗</span></a>
-            <a class="reach-link" href="https://wa.me/923003361048?text=Hi%20Shan%2C%20I%20visited%20your%20portfolio." target="_blank" rel="noopener noreferrer" aria-label="Message Shan on WhatsApp"><span class="reach-icon">✳</span><span><small>WHATSAPP</small><strong>+92 300 336 1048</strong></span><span>↗</span></a>
-            <a class="reach-link" href="tel:+923003361048" aria-label="Call Shan"><span class="reach-icon">☎</span><span><small>PHONE / SIM</small><strong>+92 300 336 1048</strong></span><span>↗</span></a>
-            <div class="contact-actions"><a href="assets/Shan_CV.pdf" download="Shan_AI_ML_Resume.pdf" class="button button-dark">Download CV <span aria-hidden="true">↓</span></a><button class="copy-email" id="copyEmail" type="button" data-email="shanstudent72387@gmail.com" aria-label="Copy email address"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="8" y="8" width="12" height="12" rx="2"/><path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8h2"/></svg> Copy email</button></div>
-          </div>
-          <form class="contact-form" id="contactForm" action="mailto:shanstudent72387@gmail.com" method="post" enctype="text/plain">
-            <span class="mono micro-label contact-small-heading">SEND A MESSAGE</span>
-            <label for="contactName">Your name</label><input id="contactName" name="name" type="text" autocomplete="name" placeholder="Your name" maxlength="100" required />
-            <label for="contactSender">Your email</label><input id="contactSender" name="email" type="email" autocomplete="email" placeholder="you@example.com" maxlength="150" required />
-            <label for="contactMessage">Message</label><textarea id="contactMessage" name="message" rows="4" placeholder="Tell me about your idea..." maxlength="3000" required></textarea>
-            <button class="button button-dark form-submit" type="submit">Compose email <span aria-hidden="true">↗</span></button>
-            <p class="contact-form-note">This opens your email app to send the message. No message is stored on this website.</p>
-          </form>
-        </div>
+    <section class="section work-section" id="projects">
+      <div class="shell">
+       <div class="section-intro reveal"><div class="section-number">01 / THE WORK</div><div class="section-heading"><h2>Built to <em>learn.</em><br>Shared to <em>prove.</em></h2><p>A growing collection of real coursework, group builds and technical experiments. Open a case study for its implementation, images, limits and original GitHub source.</p></div></div>
+       <div class="project-toolbar reveal">
+        <div class="filters" role="group" aria-label="Filter projects"><button type="button" class="filter active" data-filter="all" aria-pressed="true">All <span id="totalCount">15</span></button><button type="button" class="filter" data-filter="ai" aria-pressed="false">AI / ML</button><button type="button" class="filter" data-filter="systems" aria-pressed="false">Systems</button><button type="button" class="filter" data-filter="software" aria-pressed="false">Software</button><button type="button" class="filter" data-filter="coursework" aria-pressed="false">Coursework</button></div>
+        <div class="search-box"><label class="sr-only" for="searchProjects">Search projects</label><span>⌕</span><input id="searchProjects" type="search" placeholder="Search projects / technologies" autocomplete="off"></div>
+       </div>
+       <div id="projectsGrid" class="projects-grid" aria-live="polite"><div class="loading-projects">Loading project catalog…</div></div>
+       <p id="emptyProjects" class="empty-results" hidden>No projects match that search. Try another keyword or filter.</p>
+       <div class="all-repos reveal"><div><strong>Want the actual source?</strong><p>Explore the code, project reports, tests and university exercises on GitHub.</p></div><a class="inline-arrow" href="https://github.com/ShanShahidAI?tab=repositories" target="_blank" rel="noopener noreferrer">All public repositories ↗</a></div>
       </div>
     </section>
+    <section class="section evidence-section" id="method"><div class="shell">
+      <div class="section-intro reveal"><div class="section-number">02 / THE PROCESS</div><div class="section-heading"><h2>Not just a<br><em>pretty dashboard.</em></h2><p>The strongest work is inspectable. These numbers come from saved coursework reports and tests, with the original context preserved.</p></div></div>
+      <div class="evidence-grid">
+       <article class="evidence-card reveal"><span class="evidence-tag">CLASSIFICATION • WEEK 10</span><strong>92.3<span>%</span></strong><h3>Spam classifier</h3><p>Mean cross-validation accuracy for logistic regression on Spambase. Academic experiment, not a deployed detector.</p><a href="https://github.com/ShanShahidAI/Shan-72387-Programing-for-AI/blob/main/week10/reports/model_comparison.csv" target="_blank" rel="noopener noreferrer">View results ↗</a></article>
+       <article class="evidence-card reveal"><span class="evidence-tag">REGRESSION • WEEK 11</span><strong>0.628</strong><h3>Concrete-strength model</h3><p>Held-out R² for multiple linear regression using all eight input variables on the coursework dataset.</p><a href="https://github.com/ShanShahidAI/Shan-72387-Programing-for-AI/blob/main/week11/reports/model_comparison.csv" target="_blank" rel="noopener noreferrer">View results ↗</a></article>
+       <article class="evidence-card reveal"><span class="evidence-tag">C++ • SMARTPARK TRACE</span><strong>18<span>/18</span></strong><h3>Documented test cases</h3><p>Historical automated C++ CCP integration tests recorded by the project; not independently rerun for this portfolio.</p><a href="https://github.com/ShanShahidAI/smartpark-trace/blob/main/TEST_REPORT.md" target="_blank" rel="noopener noreferrer">View test report ↗</a></article>
+      </div>
+      <div class="evidence-footer reveal">A result means more when its limitations are visible. <span>PROVENANCE OVER HYPE ✳</span></div>
+    </div></section>
+    <section class="section about-section" id="about"><div class="shell about-grid">
+      <div class="about-visual reveal"><div class="about-img-frame"><img src="assets/shan-editorial.webp" loading="lazy" width="760" height="880" alt="Shan photographed outdoors in traditional attire"></div><div class="about-photo-tag">BEHIND THE CODE <span>↗</span></div></div>
+      <div class="about-content reveal"><div class="section-number">03 / ABOUT</div><h2>The person<br>behind <em>the projects.</em></h2><p class="about-lead">I'm Shan — curious by default, a student by practice, and a developer in progress.</p><p>My degree connects programming, mathematics and AI. I build C++ systems to understand underlying logic, use Python to interrogate data, and enjoy designing web interfaces that make technical work easier to explain.</p><p>I care about clear documentation, reproducible experiments and being honest about what a project actually does. That's why each case study here links back to its source.</p>
+       <dl class="about-facts"><div><dt>Based in</dt><dd>Islamabad, Pakistan</dd></div><div><dt>Education</dt><dd>BS Artificial Intelligence, 2025–2029 (expected)</dd></div><div><dt>Current learning</dt><dd>ML evaluation · NLP · Algorithms · System design</dd></div><div><dt>Academic standing</dt><dd>3.5 CGPA reported after first two semesters</dd></div></dl>
+       <a href="assets/Shan_CV.pdf" download="Shan_AI_ML_CV.pdf" class="text-link">Download my CV <span>↗</span></a>
+      </div>
+    </div></section>
+    <section class="section skills-section" id="skills"><div class="shell">
+     <div class="section-intro reveal"><div class="section-number">04 / THE TOOLKIT</div><div class="section-heading"><h2>Tools of <em>the trade.</em></h2><p>Practical technologies evidenced in coursework and group projects — not a claim of mastery in everything.</p></div></div>
+     <div class="skills-grid"><article class="skill-box reveal"><div class="skill-number">01</div><h3>Languages & foundations</h3><p>C++ · Python · 8086 Assembly · OOP · Git & GitHub · HTML/CSS/JS</p></article><article class="skill-box reveal"><div class="skill-number">02</div><h3>Data & machine learning</h3><p>NumPy · pandas · scikit-learn · Matplotlib · Jupyter · TF-IDF · Regression</p></article><article class="skill-box reveal"><div class="skill-number">03</div><h3>Algorithms & systems</h3><p>Linked lists · Trees · AVL/BST · Queues · BFS/DFS · Search/Sort · SQLite</p></article><article class="skill-box reveal"><div class="skill-number">04</div><h3>Web & practical tools</h3><p>Flask · Responsive interfaces · Data visualization · VS Code · emu8086</p></article></div>
+    </div></section>
+    <section class="section certificate-section" id="credentials"><div class="shell">
+     <div class="section-intro reveal"><div class="section-number">05 / CREDENTIALS</div><div class="section-heading"><h2>Small steps.<br><em>Real progress.</em></h2><p>Cisco Networking Academy course completions from provided certificates. These are course certificates, not separate professional examination credentials.</p></div></div>
+     <div class="certificate-grid">
+      <article class="certificate-card reveal"><div class="cert-image"><img loading="lazy" src="https://raw.githubusercontent.com/ShanShahidAI/C-Certificates/main/cisco/cpp-essentials-1/certificate.png" alt="Shan's Cisco C++ Essentials 1 course certificate"><span>01 / C++</span></div><div class="cert-content"><span class="cert-date">DEC 2025 · CISCO / C++ INSTITUTE</span><h3>C++ Essentials 1</h3><p>Programming foundations, functions, pointers and C++ problem-solving.</p><a href="https://github.com/ShanShahidAI/C-Certificates/tree/main/cisco/cpp-essentials-1" target="_blank" rel="noopener noreferrer">View certificate evidence ↗</a></div></article>
+      <article class="certificate-card reveal"><div class="cert-image"><img loading="lazy" src="assets/cisco-hardware.webp" alt="Shan's Computer Hardware Basics Cisco Networking Academy certificate"><span>02 / HARDWARE</span></div><div class="cert-content"><span class="cert-date">OCT 2026 · CISCO NETWORKING ACADEMY</span><h3>Computer Hardware Basics</h3><p>Computing components and practical PC hardware fundamentals.</p><button type="button" data-cert="hardware">View provided certificate ↗</button></div></article>
+      <article class="certificate-card reveal"><div class="cert-image"><img loading="lazy" src="assets/cisco-prompt.webp" alt="Shan's Prompt Like an Engineer Cisco Networking Academy certificate"><span>03 / AI PROMPTING</span></div><div class="cert-content"><span class="cert-date">NOV 2026 · CISCO NETWORKING ACADEMY</span><h3>Prompt Like an Engineer</h3><p>Structured prompting and effective interaction with AI tools.</p><button type="button" data-cert="prompt">View provided certificate ↗</button></div></article>
+     </div>
+    </div></section>
+    <section class="contact-section" id="contact"><div class="shell contact-grid">
+      <div class="contact-main reveal"><div class="section-number section-number-light">06 / LET'S CONNECT</div><h2>Have a thoughtful<br><em>problem to solve?</em></h2><p>Open to AI/ML internship conversations, learning collaborations and meaningful student projects.</p><div class="contact-links"><a href="mailto:shanstudent72387@gmail.com">shanstudent72387@gmail.com <span>↗</span></a><a href="https://wa.me/923003361048?text=Hi%20Shan%2C%20I%20visited%20your%20portfolio." target="_blank" rel="noopener noreferrer">WhatsApp · +92 300 336 1048 <span>↗</span></a><a href="tel:+923003361048">Call · +92 300 336 1048 <span>↗</span></a><a href="https://www.linkedin.com/in/shan-shahid-ai" target="_blank" rel="noopener noreferrer">LinkedIn <span>↗</span></a></div></div>
+      <div class="contact-form-panel reveal"><div class="form-heading"><span>DIRECT MESSAGE</span><span>↗</span></div><p>This creates an email draft in your own mail app. No form data is stored on this site.</p><form id="contactForm"><label for="contactName">Your name</label><input id="contactName" required autocomplete="name" maxlength="100" placeholder="Name"><label for="contactEmail">Email address</label><input id="contactEmail" type="email" autocomplete="email" required maxlength="150" placeholder="you@example.com"><label for="contactMessage">Your message</label><textarea id="contactMessage" required maxlength="3000" rows="4" placeholder="What would you like to build?"></textarea><button class="btn primary form-button" type="submit">Compose message <span>↗</span></button></form><button class="copy-email" id="copyEmail" type="button">Copy my email address ⧉</button><div class="form-note" id="formNote" role="status" aria-live="polite"></div></div>
+    </div></section>
   </main>
-  <footer class="footer"><div class="container footer-grid"><div><a class="footer-brand" href="#top">SHAN<span>.</span></a><p>Intelligence is a journey. This is mine.</p></div><div class="footer-nav"><a href="#work">Projects</a><a href="#about">About</a><a href="#skills">Skills</a><a href="#credentials">Credentials</a></div><div class="footer-social"><a href="https://github.com/ShanShahidAI" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="https://www.linkedin.com/in/shan-shahid-ai" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a><a href="mailto:shanstudent72387@gmail.com">Email ↗</a><a href="https://wa.me/923003361048" target="_blank" rel="noopener noreferrer">WhatsApp ↗</a><a href="tel:+923003361048">Call ↗</a><a href="assets/Shan_CV.pdf" download="Shan_AI_ML_Resume.pdf">CV ↓</a></div><div class="footer-bottom"><span>© <span id="year">2026</span> Shan. Made with curiosity.</span><a href="#top">BACK TO TOP ↑</a></div></div></footer>
-
-  <dialog id="projectDialog" class="project-dialog" aria-labelledby="dialogTitle"><div class="dialog-shell"><button class="dialog-close" id="dialogClose" type="button" aria-label="Close project details">✕</button><div class="dialog-eyebrow mono" id="dialogEyebrow"></div><h2 id="dialogTitle"></h2><p class="dialog-summary" id="dialogSummary"></p><div class="dialog-detail"><h3>WHAT IT EXPLORES</h3><ul id="dialogPoints"></ul></div><div class="dialog-tech" id="dialogTech"></div><div class="dialog-links" id="dialogLinks"></div></div></dialog>
+  <footer class="footer"><div class="shell footer-inner"><a class="logo" href="#top"><span class="logo-mark">s<span>.</span></span> SHAN/AI</a><span>Built with intention. © <span id="year">2026</span> Shan.</span><div><a href="https://github.com/ShanShahidAI" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="#top">Back to top ↑</a></div></div></footer>
+  <dialog id="projectDialog" class="project-dialog" aria-labelledby="dialogTitle"><div class="dialog-head"><span id="dialogIndex">PROJECT / CASE STUDY</span><button id="dialogClose" type="button" aria-label="Close project details">×</button></div><div id="dialogContent"></div></dialog>
+  <dialog id="imageDialog" class="image-dialog" aria-label="Image preview"><button id="imageClose" type="button" aria-label="Close image preview">×</button><img id="imageFull" alt=""><p id="imageCaption"></p></dialog>
   <div id="toast" class="toast" role="status" aria-live="polite"></div>
 </body>
 </html>
