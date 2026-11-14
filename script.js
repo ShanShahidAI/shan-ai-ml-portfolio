@@ -55,7 +55,7 @@ const PROJECTS = [
     category: 'software', label: 'C++ / CONSOLE APPLICATION', status: 'Completed', art: 'C++',
     tags: ['C++', 'Arrays', 'Functions', 'Console UI'],
     details: ['Built user and administrator menus for searching and maintaining property listings.', 'Calculates estimated rental cost with a deposit and illustrative tax calculation.', 'Handles booking agreement acceptance and in-memory booking history.', 'Academic prototype: sample credentials and illustrative agreement terms are not production-ready.'],
-    source: 'https://github.com/zahidmehar/Shan-72387-BSAI-PF-LAB-TASKs..'
+    source: 'https://github.com/ShanShahidAI/Shan-72387-BSAI-PF-LAB-TASKs..'
   },
   {
     id: 'library-system', number: '06', title: 'Library Management System',
@@ -88,7 +88,7 @@ const PROJECTS = [
     category: 'software', label: 'PYTHON / GITHUB', status: 'Ongoing', art: 'PY',
     tags: ['Python', 'Jupyter', 'Loops', 'Problem Solving'],
     details: ['Organized Week 1 and Week 2 exercises in the connected public repository.', 'Practice includes user input, arithmetic, conditions, loops, comprehension, and simple traffic signal logic.', 'The repository is a learning log rather than a packaged software product.'],
-    source: 'https://github.com/zahidmehar/Shan-72387-Programing-for-AI'
+    source: 'https://github.com/ShanShahidAI/Shan-72387-Programing-for-AI'
   }
 ];
 
